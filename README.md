@@ -336,8 +336,11 @@ Overall, the repository provides a practical platform for experimentation, evalu
 ---
 
 **Author:** Md. Rizwanul Islam
+
 **Student ID:** 21201129
+
 **Institution** BRAC University
+
 **Email:** mohammad.rizwanul.islam12014@gmail.com
 
 **Feel free to reach out for questions, suggestions, or collaboration regarding this project.**
