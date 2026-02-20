@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+:root {
+  color-scheme: light;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="light"] {
+  --p: 0.44 0.09 155;
+  --pc: 0.985 0 0;
+
+  --s: 0.42 0.03 240;
+  --sc: 0.985 0 0;
+
+  --a: 0.54 0.11 28;
+  --ac: 0.985 0 0;
+
+  --n: 0.30 0.02 260;
+  --nc: 0.985 0 0;
+
+  --b1: 0.992 0.004 95;
+  --b2: 0.978 0.006 95;
+  --b3: 0.948 0.01 95;
+  --bc: 0.22 0.02 260;
+
+  --in: 0.56 0.06 240;
+  --inc: 0.16 0.02 260;
+
+  --su: 0.52 0.07 150;
+  --suc: 0.16 0.02 260;
+
+  --wa: 0.74 0.07 85;
+  --wac: 0.16 0.02 260;
+
+  --er: 0.56 0.10 25;
+  --erc: 0.985 0 0;
+
+  --rounded-box: 1.25rem;
+  --rounded-btn: 0.95rem;
+  --rounded-badge: 1rem;
+
+  --border-btn: 1px;
+  --tab-border: 1px;
+  --tab-radius: 0.95rem;
+}
+
+html,
+body {
+  height: 100%;
+  background: oklch(var(--b2));
+}
+
+::selection {
+  background: color-mix(in oklab, oklch(var(--p)) 18%, transparent);
+}
+
+a,
+button,
+input,
+select {
+  outline-color: color-mix(in oklab, oklch(var(--p)) 35%, transparent);
+}

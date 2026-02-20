@@ -1,0 +1,5 @@
+{
+  "appId": "holder.example.app",
+  "appName": "holder",
+  "webDir": "dist"
+}

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  color-scheme: dark;
+
+  --app-bg: #defaad;
+  --phone-body: #eef2f7;
+  --phone-edge: #000000;
+  --screen-bg: #ffffff;
+  --screen-tint: #f7fafc;
+  --text: #0f172a;
+  --muted: #475569;
+  --line: #e2e8f0;
+
+  --accent: #0ea5e9;
+  --accent-weak: #e0f2fe;
+  --good: #10b981;
+  --good-weak: #d1fae5;
+  --warn: #f59e0b;
+  --bad: #fb7185;
+  --bad-weak: #ffe4e6;
+
+  --key: #ffffff;
+  --key-edge: #9dff00;
+  --key-press: #eff6ff;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--app-bg);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}

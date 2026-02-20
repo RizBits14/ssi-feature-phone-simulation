@@ -168,9 +168,9 @@ API listening on port 3000
 **Must have the Android Studio Software**
 
 ```bash
-pnpm build
-npx cap sync
-npx cap open android
+...ssi-feature-phone-simulation\interface\holder> pnpm build
+...ssi-feature-phone-simulation\interface\holder> npx cap sync
+...ssi-feature-phone-simulation\interface\holder> npx cap open android
 
 The android studio will open. Click on the left corner hamburger > Navigate to Build > Generate App Bundles or APKs
 
