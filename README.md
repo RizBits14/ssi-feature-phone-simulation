@@ -313,14 +313,14 @@ The `server` contains the single backend service that connects Issuer, Holder, a
 
 ## 📸 Screenshots of the Applications (web version)
 
-<img width="1193" height="967" alt="Image" src="https://github.com/user-attachments/assets/6b425988-8ba4-47a4-96a3-b402ce0de020" />
 <img width="1190" height="969" alt="Image" src="https://github.com/user-attachments/assets/831e863c-9299-4d78-83a1-3fd921a3096c" />
 <img width="1198" height="1346" alt="Image" src="https://github.com/user-attachments/assets/f42cdb2c-72d7-45f9-ad3a-4bc5e2f277c6" />
+<img width="1193" height="967" alt="Image" src="https://github.com/user-attachments/assets/6b425988-8ba4-47a4-96a3-b402ce0de020" />
 
 ## 📌 Conclusion
 
 This project delivers an end-to-end **SSI Feature-Phone Simulation** of the Issuer–Holder–Verifier workflow, covering invitation-based connection setup, credential issuance, proof requests, and holder-controlled presentation. The **Bangladesh Election Commission (EC)** and **Bangladesh Road Transport Authority (BRTA)** are used **solely as simulated, research-oriented examples** to represent trusted institutions; this work is not affiliated with or endorsed by any official organization.
 
-For improved security in a realistic demonstration setting, the Holder experience includes **PIN-protected actions** (accepting credentials, presenting proofs, and viewing wallet contents), while the backend stores credential claims encrypted at rest using **AES-256-GCM**. 
+For improved security in a realistic demonstration setting, the Holder experience includes **PIN-protected actions** (accepting credentials, presenting proofs, and viewing wallet contents), while the backend stores credential claims encrypted at rest using **AES-256-GCM**.
 
 Overall, the repository provides a practical platform for experimentation, evaluation, and future extensions in constrained, feature-phone–oriented SSI scenarios.
