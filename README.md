@@ -156,7 +156,7 @@ AES_SECRET=<RANDOM ALPHANUMERIC OF LENGTH 64>
 # For Example: A7fK2mP9xQ4Zr8T1bY6Lw3N0cH5UeVdSgJ2oI9aFqR8tM1kXyC4pE7uB6WzD3
 ```
 
-**After setting the .env variable**
+### Run locally
 
 ```bash
 ...ssi-feature-phone-simulation\server> nodemon index.js
